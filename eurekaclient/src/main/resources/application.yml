@@ -1,0 +1,11 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: eurekaclient
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://master:8761/eureka/
